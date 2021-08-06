@@ -2,7 +2,7 @@ package main
 
 // 有效的括号
 // 力扣：https://leetcode-cn.com/problems/valid-parentheses/
-// 对于栈结构来说是比较基础的题目，难点在于
+// 对于栈结构来说是比较基础的题目，难点在于字符要如何放置，这里用map并且用后置符号做key的做法就非常值得学习
 
 import "fmt"
 
