@@ -19,7 +19,7 @@ func search(nums []int, target int) int {
 	low := len(nums) - 1
 
 	for high <= low {
-		mid := (low-high)/2 + high
+		mid := (low-high)/2 + high // 这里是取数组的中间索引，然后加上起始索引，得出当前的区间内，中间的索引值
 
 		num := nums[mid]
 
