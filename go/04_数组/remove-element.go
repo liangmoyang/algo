@@ -10,7 +10,7 @@ func main() {
 	//fmt.Println(removeElement1(slice,2))
 	//fmt.Println(removeElement2(slice,2))
 	fmt.Println(removeElement3(slice, 2))
-	fmt.Println(slice)
+	fmt.Println(slice) // 注意每个解法对原数组的影响其实是不一样的
 }
 
 // 暴力破解法 空间O(1) 时间O(n^2)
